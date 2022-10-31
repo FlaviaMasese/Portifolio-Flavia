@@ -373,6 +373,84 @@ html{
     transform: translateY(-25px);
 }
 
+/* Team section styling */
+
+#teams{
+    color: #A9ADB8;
+    background:plum;
+}
+
+.teams h5{
+    font-weight: 700;
+    color: #07080B;
+    transform: translateY(-65px);
+}
+
+.teams h1{
+    color: #07080B;
+    text-align: center;
+    font-size: 80px;
+    transform: translateY(23px);
+    opacity: 0.1;
+    padding-top: -20px;
+}
+
+.teams .carousel .card{
+    background: #07080B;
+    border-radius: 5px;
+    padding: 25px 35px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover{
+    background: #15151a;
+}
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid purple;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #fff;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    background: #07080B !important;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid #07080B;
+    transition: all 0.3s ease;
+}
+
 /* My Skills Section */
 
 #skills{
@@ -392,10 +470,10 @@ html{
     transform: translateY(-65px);
 }
 .skills .title::before{
-    background: #FEC544;
+    background: purple;
 }
 .skills .title::after{
-    background: #FEC544;
+    background: purple;
 }
 
 .skills .skill-content .column{
@@ -408,7 +486,7 @@ html{
     font-weight: 700;
     padding: 10px 0;
     margin-bottom: 10px;
-    color: #FEC544;
+    color: purple;
 }
 .skills .skill-content .left p{
     color: #A9ADB8;
@@ -418,18 +496,18 @@ html{
 }
 .skills .skill-content .left a{
     display: inline-block;
-    background: #FEC544;
+    background: purple;
     color: #07080B;
     font-size: 18px;
     font-weight: 700;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 5px;
-    border: 2px solid #FEC544;
+    border: 2px solid purple;
     transition: all 0.3s ease;
 }
 .skills .skill-content .left a:hover{
-    color: #FEC544;
+    color: purple;
     background: none;
 }
 .skills .skill-content .right .bars{
@@ -460,7 +538,7 @@ html{
     height: 100%;
     left: 0;
     top: 0;
-    background: #FEC544;
+    background: purple;
 }
 
 .skills .skill-content .right .ps::before{
@@ -486,6 +564,28 @@ html{
 
 
 /* Contact Me Section */
+.center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content .fas:hover{
+    background: #ce20f1;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
 
 section{
     padding: 40px 0;
@@ -505,10 +605,10 @@ section{
     transform: translateY(-65px);
 }
 .contact .title::before{
-    background: #FEC544;
+    background: purple;
 }
 .contact .title::after{
-    background: #FEC544;
+    background: purple;
 }
 .contact .contact-content .column{
     margin-top: 40px;
@@ -665,6 +765,9 @@ ul li:nth-child(4):before{
 ul li:nth-child(5):before{
     background: #ff0000;
   }
+ul li:nth-child(6):before{
+    background: #fff700;
+  }
 ul li:hover:before{
     filter: blur(3px);
     transform: scale(1.2);
@@ -687,29 +790,20 @@ ul li:nth-child(5):hover:before{
   }
 ul li:nth-child(1):hover{
     color: #456cba;
-    box-shadow: 0 0 15px #4267B2;
-    text-shadow: 0 0 15px #4267B2;
+    box-shadow: 0 0 15px #b24290;
+    text-shadow: 0 0 15px #42a7b2;
   }
 ul li:nth-child(2):hover{
-    color: #26a4f2;
-    box-shadow: 0 0 15px #1DA1F2;
-    text-shadow: 0 0 15px #1DA1F2;
+    color: #26f293;
+    box-shadow: 0 0 15px #1df24b;
+    text-shadow: 0 0 15px #b2f21d;
   }
 ul li:nth-child(3):hover{
     color: #e23670;
-    box-shadow: 0 0 15px #E1306C;
-    text-shadow: 0 0 15px #E1306C;
+    box-shadow: 0 0 15px #30a9e1;
+    text-shadow: 0 0 15px #e130c3;
   }
-ul li:nth-child(4):hover{
-    color: #2a6cbb;
-    box-shadow: 0 0 15px #2867B2;
-    text-shadow: 0 0 15px #2867B2;
-  }
-ul li:nth-child(5):hover{
-    color: #ff1a1a;
-    box-shadow: 0 0 15px #ff0000;
-    text-shadow: 0 0 15px #ff0000;
-  }
+
   /* ul li:hover{
     color: #ffa502;
     box-shadow: 0 0 15px #d35400;
