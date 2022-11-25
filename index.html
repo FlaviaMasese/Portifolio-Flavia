@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="boxicons-2.0.9/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
 </head>
 <body id="home">
 
@@ -56,7 +57,9 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Flavia and I'm a <span class="typing-2"></span></div>
-                    <p>I am a Visual Designer with a strong focus on digital branding. Visual design seeks to attract, inspire, create desires and motivate people to respond to messages, with a view to making a favorable impact.</p>
+                    <p>I am a Full Stack Web developer having specialized in front and back end development.I have strong front end skills in 
+                        HTML, CSS, Javascript, Vuejs, React,  Nodejs, Bootstrap, DOM manipulation and back end skills in PHP, Python, SQL.I am
+                     also skilled in data analtytics and visualization.</p>
                     <table class="table">
                         <tr>
                             <td>Phone</td>
@@ -94,8 +97,8 @@
                        <div class="service-logo">
                         <i class="bx bxl-html5 bx-lg"></i>
                        </div>
-                          <h4>Web Design</h4>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam consequatur veritatis dicta, iste aut voluptatibus odio hic suscipit fugit!</p>
+                          <h4>Dashboard and web app Development</h4>
+                          <p>Get your professional interactive dashboards developed to communicate insights gained from data analytics.</p>
                     </div>
                  <div class="shadowone"></div>
                  <div class="shadowtwo"></div>        
@@ -106,8 +109,10 @@
                        <div class="service-logo">
                         <i class="bx bxl-apple bx-lg"></i>
                        </div>
-                          <h4>UI/UX Design</h4>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam consequatur veritatis dicta, iste aut voluptatibus odio hic suscipit fugit!</p>
+                          <h4>Web development</h4>
+                          <p>I create successful responsive websites that are fast, easy to use and built with best practices.The main area of expertise is front end development, HTML,
+                            CSS, JS, building small and medium web apps,animations.
+                          </p>
                     </div>
                  <div class="shadowone"></div>
                  <div class="shadowtwo"></div>        
@@ -118,8 +123,9 @@
                        <div class="service-logo">
                         <i class="bx bxs-video-recording bx-lg"></i>
                        </div>
-                          <h4>Product Design</h4>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi veniam consequatur veritatis dicta, iste aut voluptatibus odio hic suscipit fugit!</p>
+                          <h4>Data Exploration and visualization</h4>
+                          <p>I go through the initial stages of translating business problems and research questions into analytical ones structured as data science project.
+                            Data visualization is done at almost all stages of an analysis. I pay particular attention to choosing the right plot to communicate results and preprocessed data.It helps people see, interact with, and better understand data.</p>
                     </div>
                  <div class="shadowone"></div>
                  <div class="shadowtwo"></div>        
@@ -210,7 +216,7 @@
                     <img src="images\20221031_112437.jpg" alt="">
                     <div class="text">Project name</div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <a href="#"><i class="uil uil-link"></i></a>
+                    <a href="http://flaviabosibori.pythonanywhere.com" class="fa fa-link"><i class="uil uil-link"></i></a>
                 </div>
             </div>
             <div class="card">
@@ -282,12 +288,13 @@
             <div class="contact-content">
                 <div class="column left">
                     <h2>Write Me</h2>
-                    <form>
+                    <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post"></form>>
                         <div class="form-group">
                             <input type="text" name="name" id="name" placeholder="Your Name">
                         </div>
                         <div class="form-group">
                             <input type="email" name="email" id="email" placeholder="Your Email">
+                            <span class="error" id="erroremail"></span>
                         </div>
                         <div class="form-group">
                             <input type="text" name="subject" id="subject" placeholder="Your Subject">
