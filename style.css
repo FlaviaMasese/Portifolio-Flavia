@@ -373,7 +373,7 @@ html{
     transform: translateY(-25px);
 }
 
-/* Team section styling */
+/* project section styling */
 
 #teams{
     color: #A9ADB8;
@@ -728,7 +728,7 @@ ul li{
     font-size: 30px;
     height: 60px;
     width: 60px;
-    background: #171515;
+    background: #07080B;
     line-height: 60px;
     border-radius: 50%;
     margin: 0 15px;

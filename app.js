@@ -18,7 +18,7 @@ $(document).ready(function(){
 
     var typed = new Typed(".typing-1",{
         strings: [
-            "Web Developer", "Data Analyst", "Freelancer"
+            "Web Developer", "Data Analyst"
         ],
         typeSpeed: 100,
         backSpeed: 60,
@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
     var typed = new Typed(".typing-2",{
         strings: [
-            "Web Developer", "Data Analyst", "Freelancer"
+            "Web Developer", "Data Analyst"
         ],
         typeSpeed: 100,
         backSpeed: 60,
