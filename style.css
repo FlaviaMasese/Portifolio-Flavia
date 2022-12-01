@@ -936,10 +936,10 @@ ul li:nth-child(3):hover{
     content: "75%";
   }
   .progress-line.react span::after{
-    content: 70%;
+    content: "70%";
   }
   .progress-line.nodejs span::after{
-    content: 60%;
+    content: "60%";
   }
   .progress-line.design span::after{
     content: "80%";
