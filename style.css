@@ -869,8 +869,8 @@ ul li:nth-child(3):hover{
   .bar .progress-line.css span{
     width: 90%;
   }
-  .bar .progress-line.jquery span{
-    width: 75%;
+  .bar .progress-line.javascript span{
+    width: 80%;
   }
   .bar .progress-line.python span{
     width: 85%;
@@ -878,9 +878,16 @@ ul li:nth-child(3):hover{
   .bar .progress-line.mysql span{
     width: 75%;
   }
+  .bar .progress-line.react span{
+    width: 70%;
+  }
+  .bar .progress-line.nodejs span{
+    width: 60%;
+  }
   .bar .progress-line.design span{
     width: 80%;
   }
+  
   .progress-line span::before{
     position: absolute;
     content: "";
@@ -919,8 +926,8 @@ ul li:nth-child(3):hover{
   .progress-line.css span::after{
     content: "90%";
   }
-  .progress-line.jquery span::after{
-    content: "75%";
+  .progress-line.javascript span::after{
+    content: "80%";
   }
   .progress-line.python span::after{
     content: "85%";
@@ -928,9 +935,17 @@ ul li:nth-child(3):hover{
   .progress-line.mysql span::after{
     content: "75%";
   }
+  .progress-line.react span::after{
+    content: 70%;
+  }
+  .progress-line.nodejs span::after{
+    content: 60%;
+  }
   .progress-line.design span::after{
     content: "80%";
   }
+  
+  
 
   /*language style*/
 .header-container {
