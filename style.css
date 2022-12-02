@@ -591,7 +591,7 @@ section{
 }
 
 .contact h1{
-    color: #6e6e70;
+    color: #706e70;
     text-align: center;
     font-size: 80px;
     transform: translateY(20px);
@@ -601,6 +601,7 @@ section{
 .contact h5{
     font-weight: 700;
     transform: translateY(-65px);
+    color:purple;
 }
 .contact .title::before{
     background: purple;
